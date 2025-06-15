@@ -6,7 +6,7 @@ WORKDIR /
 RUN pip install flask
 
 # Copy app code
-COPY app.py .
+COPY main.py .
 
 # Expose port 5000
 EXPOSE 5000
